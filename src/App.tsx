@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Quotes from "./pages/Quotes";
 import Games from "./pages/Games";
 import LoveNotes from "./pages/LoveNotes";
+import Celebration from "./pages/Celebration";
 import Navigation from "./components/Navigation";
 import NotFound from "./pages/NotFound";
 
@@ -24,6 +25,7 @@ const App = () => (
             <Route path="/quotes" element={<Quotes />} />
             <Route path="/games" element={<Games />} />
             <Route path="/love-notes" element={<LoveNotes />} />
+            <Route path="/celebration" element={<Celebration />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Navigation />

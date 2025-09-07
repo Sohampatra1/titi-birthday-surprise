@@ -1,4 +1,4 @@
-import { Heart, Home, Gamepad2, Quote, Gift } from "lucide-react";
+import { Heart, Home, Gamepad2, Quote, Gift, Cake } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 
 const Navigation = () => {
@@ -9,6 +9,7 @@ const Navigation = () => {
     { href: "/quotes", icon: Quote, label: "Quotes" },
     { href: "/games", icon: Gamepad2, label: "Games" },
     { href: "/love-notes", icon: Gift, label: "Love Notes" },
+    { href: "/celebration", icon: Cake, label: "Celebration" },
   ];
 
   return (
