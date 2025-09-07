@@ -188,6 +188,7 @@ All colors MUST be HSL.
     }
   }
   
+  
   @keyframes fadeInUp {
     from {
       opacity: 0;
@@ -198,8 +199,66 @@ All colors MUST be HSL.
       transform: translateY(0);
     }
   }
+
+  /* Balloon floating animation */
+  @keyframes balloonFloat {
+    0% {
+      transform: translateY(100vh) rotate(0deg);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-120vh) rotate(360deg);
+      opacity: 0;
+    }
+  }
+
+  /* Star twinkling animation */
+  @keyframes starTwinkle {
+    0% {
+      opacity: 0.3;
+      transform: scale(0.8) rotate(0deg);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1.2) rotate(180deg);
+    }
+  }
+
+  /* Firework animation */
+  @keyframes firework {
+    0% {
+      transform: scale(0);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.5);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(3);
+      opacity: 0;
+    }
+  }
   
   .animate-fade-in-up {
     animation: fadeInUp 0.8s ease-out;
+  }
+
+  .balloon-float {
+    animation: balloonFloat 8s ease-out infinite;
+  }
+
+  .star-twinkle {
+    animation: starTwinkle 2s ease-in-out infinite alternate;
+  }
+
+  .firework {
+    animation: firework 3s ease-out infinite;
   }
 }
