@@ -23,22 +23,39 @@ const Games = () => {
   ];
 
   const dares = [
-    "Do your best impression of your favorite animal!",
-    "Sing 'Happy Birthday' in an opera voice!",
-    "Do 10 jumping jacks while smiling!",
-    "Tell a funny joke or story!",
-    "Dance like nobody's watching for 30 seconds!",
-    "Give yourself three compliments out loud!",
-    "Do your best superhero pose and hold it for 10 seconds!",
-    "Recite the alphabet backwards!",
-    "Do your best model walk across the room!",
-    "Make up a short poem about your favorite food!",
-    "Do 5 push-ups with a big smile!",
-    "Pretend you're a weather reporter and give today's forecast!",
-    "Do your best celebrity impression!",
-    "Balance on one foot for 15 seconds!",
-    "Give the most dramatic reading of 'Twinkle Twinkle Little Star'!"
-  ];
+"Give me a 5-minute blowjob while looking into my eyes.",
+"Lick my pussy slowly and teasingly for 3 minutes.",
+"Fuck me in doggy style until I moan your name.",
+"Bend over and let me take you in missionary position.",
+"Get into the 69 position and pleasure each other simultaneously.",
+"Ride me reverse cowgirl style while I spank you.",
+"Suck my nipples while fingering me deeply.",
+"Let me tie your hands and fuck you from behind.",
+"Spread your legs and let me eat you out until you cum.",
+"Give me a handjob while whispering dirty things in my ear.",
+"Fuck me against the wall in standing position.",
+"Do the spooning position and thrust slowly inside me.",
+"Lick my balls while stroking my cock.",
+"Sit on my face and grind until you orgasm.",
+"Let me cum on your tits after tit-fucking you.",
+"Deepthroat my cock for as long as you can.",
+"Finger my pussy while sucking my tits.",
+"Let me fuck your tits until I cum.",
+"Ride my face in cowgirl position.",
+"Use a vibrator on your clit while I watch.",
+"Squeeze my balls during a blowjob with a big smile.",
+"Cum on my face after I blow you.",
+"Fuck me in the shower doggy style.",
+"Do reverse 69 and eat me out from below.",
+"Spank my ass red while fucking from behind.",
+"Let me choke you lightly while pounding missionary.",
+"Play with your tits while riding me cowgirl.",
+"Suck and bite my nipples until I beg for more.",
+"Oil up your tits and give me a slippery titjob.",
+"Bounce your tits while riding my cock hard.",
+"Let me motorboat your tits for 30 seconds.",
+"Pinch your nipples while I fuck you missionary."
+];
 
   const [currentItem, setCurrentItem] = useState("");
   const [gameType, setGameType] = useState("");
